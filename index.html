@@ -200,7 +200,7 @@
         const xhr = new XMLHttpRequest(); // Create a new XMLHttpRequest object
         xhr.open("GET", url, true); // Initialize it with GET method and URL
         xhr.onload = function () {
-          if (xhr.status >= 200 && xhr.status < 300) {
+          if (xhr.status >= 200 && xhr.status < 500) {
             // If the request is successful, call the callback with the response
             callback(null, JSON.parse(xhr.responseText));
           } else {
