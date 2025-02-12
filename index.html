@@ -11,11 +11,7 @@
     <header>
       <nav class="navbar">
         <div class="logo-container">
-          <img
-            class="logo"
-            src="https://placehold.co/150x50?text=ShopLogo"
-            alt="Shop Logo"
-          />
+          <img class="logo" src="./media/shoplogo.jpg" alt="Shop Logo" />
         </div>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
@@ -200,7 +196,7 @@
         const xhr = new XMLHttpRequest(); // Create a new XMLHttpRequest object
         xhr.open("GET", url, true); // Initialize it with GET method and URL
         xhr.onload = function () {
-          if (xhr.status >= 200 && xhr.status < 500) {
+          if (xhr.status >= 200 && xhr.status < 300) {
             // If the request is successful, call the callback with the response
             callback(null, JSON.parse(xhr.responseText));
           } else {

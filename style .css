@@ -21,8 +21,8 @@ h1, h2, h3, p {
 
 /* Header Styles */
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #7df09b;
+  color: #000000;
   padding: 1em;
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,7 @@ h1, h2, h3, p {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #0c0b0b;
   text-decoration: none;
   padding: 0.5em;
   transition: color 0.3s ease;
@@ -62,8 +62,12 @@ h1, h2, h3, p {
 
 /* Hero Section Styles */
 .hero {
+  background-image: url(./media/mainbody.jfif);
+ 
+  
+  
   background-color: #ff6347;
-  color: #fff;
+  color: #6dded2;
   padding: 4em 0;
   text-align: center;
 }
@@ -228,6 +232,9 @@ h1, h2, h3, p {
   padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f46161;
+  background-image: url(./media/bg-image.jpg);
+  background-repeat: repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
